@@ -1,7 +1,7 @@
 
-install.packages(c("reader", "dplyr", "tidyr"),
+install.packages("pacman",
                  repos = "http://lib.stat.cmu.edu/R/CRAN", 
                  dependencies = TRUE)
 
 
-pacman::p_load("ggvis", "rsconnect", "RCurl", "RJSONIO", "PKI")
+pacman::p_load("reader", "dplyr", "tidyr", "rsconnect", "RCurl", "RJSONIO", "PKI")
